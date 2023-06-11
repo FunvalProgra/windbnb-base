@@ -7,18 +7,18 @@ function App() {
 
   // Función para traer los datos de "stays.json".
   const getData = async () => {
-    // Esta sentencia try-catch sirve para manejar los errores que se generen al importar los datos de "stays.json".
+    // Esta sentencia try-catch sirve para manejar los errores que se podrían generar al importar los datos de "stays.json".
     try {
       const res = await fetch("stays.json");
       const resJson = await res.json();
       // Aquí guardamos los datos de "stays.json" en la variable data.
-      setData([...resJson]);
+      setData(resJson);
     } catch (error) {
       console.log(error);
     }
   };
 
-  // Este hook te va a ejecutar la función getData cada vez que la página se renderice.
+  // Este Hook te va a ejecutar la función getData cada vez que la página se renderice.
   useEffect(() => {
      getData();
   }, []);
