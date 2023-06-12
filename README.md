@@ -38,7 +38,7 @@ Para los iconos, utilizaremos la librería de iconos de Google: [Material Icons]
 
 Nosotros ya hemos creado un proyecto de React JS y lo hemos modificado para que puedas empezar a trabajar en tu proyecto sin problemas. Este contiene un código base, el cual eres libre de modificar a tu gusto. Sin embargo, recuerda que es una guía para empezar tu proyecto. Empecemos descargando el código de dicho proyecto de React:
 
-- Primer paso: Clonar o descargar el repositorio de GitHub. Para esto puedes utilizar el siguiente comando en la terminal de tu sistema o sencillamente descargar los archivos del repositorio.
+- Primer paso: Hacer fork o descargar el repositorio de GitHub. Para esto puedes utilizar el siguiente comando en la terminal de tu sistema o sencillamente descargar los archivos del repositorio.
 
 ```
 git clone https://github.com/FunvalProgra/windbnb-base.git
