@@ -67,6 +67,11 @@ A continuación te diremos cuales son los puntos que se tomarán en cuenta para 
 - Los colores, fuentes, tamaños de letra, etc. deben ser los proporcionados en el archivo Figma.
 - Los datos deben ser obtenidos del archivo `stays.json` o desde un array con los mismos datos.
 - El proyecto debe ser estructurado de forma que sea fácil de entender y mantener, así que debes usar componentes para organizar las partes de tu proyecto.
+- Debes tener almenos los siguientes componentes (pueden ser componentes, containers, views, etc):
+  - Card.jsx : Este representa la card donde está la informacion de la estadia.
+  - Nav.jsx : Este componente representa la barra de navegación.
+  - App.jsx : Contiene la informacion principal de la aplicación.
+  - Puedes añadir más componetes que consideres necesarios para organizarte.
 - El proyecto debe ser publicado en GitHub Pages.
 - El proyecto debe tener más de un commit.
 - El proyecto debe ser subido a GitHub y el enlace debe ser enviado para su revisión.
