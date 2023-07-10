@@ -65,12 +65,15 @@ A continuación te diremos cuales son los puntos que se tomarán en cuenta para 
 
 - El diseño debe ser lo más fiel posible al proporcionado en el archivo Figma.
 - Los colores, fuentes, tamaños de letra, etc. deben ser los proporcionados en el archivo Figma.
-- Los datos deben ser obtenidos del archivo `stays.json` y no deben ser escritos a mano.
-- El proyecto debe ser estructurado de forma que sea fácil de entender y mantener.
+- Los datos deben ser obtenidos del archivo `stays.json` o desde un array con los mismos datos.
+- El proyecto debe ser estructurado de forma que sea fácil de entender y mantener, así que debes usar componentes para organizar las partes de tu proyecto.
 - El proyecto debe ser publicado en GitHub Pages.
 - El proyecto debe tener más de un commit.
 - El proyecto debe ser subido a GitHub y el enlace debe ser enviado para su revisión.
+- La barra de busqueda funciona sin necesidad de desplegar el modal.
+- los cards tienen "superhost"  de acuerdo lo indica su objeto.
 
 #### Consideraciones opcionales que también podrían sumar puntos:
 - El diseño debe ser 100% responsive.
-- El proyecto debe ser desarrollado con Bootstrap 5. Para los estilos **que no se puedan** lograr con Bootstrap, puedes utilizar CSS puro.
+- El proyecto puede ser desarrollado con Bootstrap 5 u otra libreria CSS de tu preferencia (component UI, tailwind CSS, etc). Para los estilos **que no se puedan** lograr con alguna de estas librerias, puedes usar CSS puro.
+- La barra de Navegación funciona con modal y se asemeja 100% al diseño esperado.
